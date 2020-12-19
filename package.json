@@ -1,9 +1,9 @@
 {
   "name": "gatsby-example-file-system-route-api",
   "private": true,
-  "description": "Gatsby example site demoing File System Route API",
+  "description": "Gatsby example site demoing File System Route API, Markdown and YAML",
   "version": "1.0.0",
-  "author": "LekoArts <lekoarts@gmail.com>",
+  "author": "GatsbyID <info@gatsbyjs.id>",
   "dependencies": {
     "gatsby": "next",
     "gatsby-plugin-sharp": "^2.11.1",
