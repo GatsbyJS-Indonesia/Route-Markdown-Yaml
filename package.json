@@ -5,12 +5,12 @@
   "version": "1.0.0",
   "author": "GatsbyID <info@gatsbyjs.id>",
   "dependencies": {
-    "gatsby": "next",
+    "gatsby": "^3.3.0-next.0",
     "gatsby-plugin-sharp": "^2.11.1",
     "gatsby-remark-images": "^3.8.0",
-    "gatsby-source-filesystem": "next",
-    "gatsby-transformer-remark": "next",
-    "gatsby-transformer-yaml": "next",
+    "gatsby-source-filesystem": "^3.3.0-next.0",
+    "gatsby-transformer-remark": "^3.3.0-next.0",
+    "gatsby-transformer-yaml": "^3.3.0-next.0",
     "react": "^16.3.1",
     "react-dom": "^16.3.1"
   },
