@@ -36,6 +36,7 @@ module.exports = {
     /**
      * Agar bisa sourcing data dari sistem file (directory),
      * kita bisa menggunakan plugin 'gastby-surce-filesystem'
+     * https://www.gatsbyjs.com/docs/how-to/sourcing-data/sourcing-from-the-filesystem/
      */
     {
       resolve: `gatsby-source-filesystem`,
