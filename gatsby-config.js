@@ -27,16 +27,25 @@ module.exports = {
             return `Product`;
           }
           if (name === `parks`) {
-            return `park`;
+            return `Park`;
           }
           return name;
         },
       },
     },
+    /**
+     * Agar bisa sourcing data dari sistem file (directory),
+     * kita bisa menggunakan plugin 'gastby-surce-filesystem'
+     */
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/blog`,
+        /**
+         * "name" disini adalah alias agar kita bisa akses
+         * ke file yang kita declare di "path" diatas
+         * lalu kita bisa query melalui graphql
+         */
         name: `blog`,
       },
     },
