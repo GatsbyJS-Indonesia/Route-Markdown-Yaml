@@ -61,6 +61,10 @@ public
 # Mac files
 .DS_Store
 
+# Package manager
+yarn.lock
+package-lock.json
+
 # Yarn
 yarn-error.log
 .pnp/
